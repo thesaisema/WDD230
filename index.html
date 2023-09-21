@@ -6,6 +6,7 @@
     <link rel="icon" href="newthesaisema.jpg">
     <link rel="stylesheet" href="./styles/medium.css">
     <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/larger.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 230 Assignment Portal - Sainimere Sema</title>
     <script src="scripts/getDates.js" defer></script>
@@ -22,14 +23,28 @@
             <img src="./images/tahitisai.JPG" alt="Website Photo">
 
         
-            <h1> Sainimere Sema</h1>
+            <h1> Sainimere Sema 🌺</h1>
         
     </header>
+
+    <nav>
+        <button id="menu-button">
+            <span id="menu-open">&equiv;</span>
+            <span id="menu-close">X</span>
+        </button>
+        <ul id="navbar">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="target-audience.html">Chamber</a></li>
+            <li><a href="design.html">Site Plan</a></li>
+            <li><a href="design.html">Form</a></li>
+        </ul>
+    </nav>    
 
     <main>
         <h2>WDD 230: Assignment Portal</h2>
         <hr>
         <p>Weekly lessons are linked here.</p>
+
         
         <ul>
             <li>
@@ -67,11 +82,15 @@
     <footer>
         <p>
         <span id="currentyear"></span>
-         | Sainimere Sema | Rexburg, ID
+         &copy;| Sainimere Sema | Rexburg, ID
         </p>
         <p>
-            Last Updated: 
+            Last Modified: 
             <span id="lastUpdated"></span>
+        </p>
+        <p>
+            Kadavu, Fiji
+            <img src="./images/fijiflag.webp" width="25" alt="Fiji flag">
         </p>
     
     </footer>
