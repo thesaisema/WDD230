@@ -1,0 +1,38 @@
+@media screen and (min-width:900px) {
+    .home {
+        grid-template-columns: 60% 40%;
+        grid-template-rows: repeat(5, auto);
+
+    }
+    #hero {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    #newsrelease {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    #spotlight {
+        grid-column: 1/3;
+        grid-row: 3/4;
+        display: flex;
+    }
+    #join {
+        display: block;
+        grid-column: 1/4;
+        grid-row: 4/5;
+    }
+    .footerinfo {
+        flex-direction: row;
+        
+    }
+
+    .spotlight3 {
+        display: none;
+    }
+    main {
+        display: block;
+    }
+   
+}
