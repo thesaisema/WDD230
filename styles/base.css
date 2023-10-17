@@ -215,6 +215,36 @@ h3 {
   color: #050505;
 }
 
+/* TAHITI TEMPLE CSS */
+.overlay-text {
+  position: absolute;
+  top: 10%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: #3c526f; 
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 20px; 
+  text-align: center;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* THIS IS FOR IFRAME MAP */
+.iframe {
+  width: 100%;
+  height: auto;
+}
+
 /* Media Query Updates for middle widths */
 
 @media screen and (min-width: 640px) {
