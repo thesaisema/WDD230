@@ -74,7 +74,7 @@ header{
 .home div {
     width: 100%;
     background-color: #c6dcf2;
-    padding: 40;
+    padding: 40px;
     
 }
 #spotlight {
@@ -351,7 +351,7 @@ h2:after{
 }
 
 .field:hover{
-    background-color: rgba(0, 0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .field:focus{
