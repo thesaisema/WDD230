@@ -29,6 +29,7 @@ td{
     font-weight: bold;
     border: 1px gray solid;
 }
+
 .tbody tr:nth-child(even){
     background-color: lightgray;
 }
@@ -39,4 +40,8 @@ td{
 
 .check{
     color: purple;
+}
+
+.redx2, .check2, .title2 {
+    background-color: rgb(254, 208, 230);
 }
