@@ -1,27 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta property="og:title" content="Fiji Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://thesaisema.github.io/wdd230/chamber/">
+    <meta property="og:image" content="https://a.cdn-hotels.com/gdcs/production176/d1798/8e03236e-1024-4e7b-89a2-e746b2d539c0.jpg?impolicy=fcrop&w=800&h=533&q=medium">
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content=""> -->
+    <link rel="fav icon logo" href="./images/favicon.ico">
+    <script src="https://kit.fontawesome.com/ab0d34f915.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../chamber/styles/base.css">
+    <link rel="stylesheet" href="../chamber/styles/medium.css">
+    <link rel="stylesheet" href="../chamber/styles/larger.css">
+    <link rel="stylesheet" href="styles/windchill.css">
+    <script src="./scripts//windchill-news.js" defer></script>
+    <script src="../chamber/scripts/footerinfo.js" defer></script>
+    <title>Fiji Chamber of Commerce</title>
+    <link rel="icon" type="image/x-icon" href="images/transparentlogo.png">
 </head>
+
 <body>
+    <header>
+       <div id="logo"> 
+            <img src="../chamber/images/transparentlogo.png" alt="Logo">
+            <div>
+                <p>Fiji Chamber of Commerce</p>
+            </div>
+            
+       </div>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./discover.html">Discover</a></li>
+            <li><a href="./directory.html">Directory</a></li>
+            <li><a href="./join.html">Join</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            
+        </ul>
+       <div id="socialmedia">
+            <i class="fa-brands fa-facebook" style="color: #337fc7;"></i>
+            <i class="fa-brands fa-twitter" style="color: #3477ea;"></i>
+       </div>
+
+       <div id="hamburgermenu">
+            <i class="fa-solid fa-bars" style="color: #d4a373;"></i>
+       </div>
+    </header>
     <main>
-        <form action="">
-            <div>
-                <label for="first-name">First Name:</label>
-                <input type="text" name="first-name" id="first-name">
-            </div>
-            <div>
-                <label for="last-name">Last Name:</label>
-                <input type="text" name="last-name" id="last-name">
-            </div>
-            <div>
-                <label>Gender:</label>
-                <label for="male"></label>
-                <input type="radio" name="" id="">
-            </div>
+        <header></header>
+        <div id="formmessage"></div>
+        <h1>Contact Us</h1>
+        <form method="get">
+            <fieldset>
+            <p class="smaller">*️⃣ Indicates a required field</p>
+    
+            <label for="fullname" class="req">Name</label>
+            <input type="text" id="fullname" name="fullname" required placeholder="Please enter your full name">
+            <label for="email" class="req">Email Address</label>
+            <input type="email" id="email" name="email" required placeholder="Please use your school email address">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone">
+            <label for="keyphrase">Your Key Phrase</label>
+            <input type="text" id="keyphrase" name="keyphrase" pattern="[a-zA-Z -]{6,}" placeholder="At least six characters long. No numbers.">
+            <label for="keyphrase2">Re-enter Your Key Phrase</label>
+            <input type="text" id="keyphrase2" name="keyphrase2">
+    
+            <label for="comments" class="req">Your Message</label>
+            <textarea id="comments" name="comments" required></textarea>
+            <button id="btnSubmit" type="submit">Send Message</button>
+            <input type="hidden" value="43aster">
         </form>
+    </fieldset>
     </main>
+
+    <footer>
+        <div class="contactinfo">
+            <img src="./images/transparentlogo.png" width="100" alt="">
+            <p>2400 Toso Viti, Suva, Fiji 32 📍</p>
+            <p>info@fjcc.org</p>
+            <br>
+        </div>
+        <p>
+        <span id="currentyear"></span>
+         &copy;| Sainimere Sema | Rexburg, ID
+        </p>
+        <p>
+            Last Modified: 
+            <span id="lastUpdated"></span>
+        </p>
+        <p>
+            Kadavu, Fiji
+            <img src="../images/fijiflag.webp" width="25" alt="Fiji flag">
+        </p>
+    
+    </footer>
 </body>
 </html>
