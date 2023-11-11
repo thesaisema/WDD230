@@ -65,6 +65,6 @@ marker pseudo-element {
     font-variant: small-caps;
 }
 
-before pseudo-element {
-    
+.sel-lastline-word {
+    color: #000;
 }
