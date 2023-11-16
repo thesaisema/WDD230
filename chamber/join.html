@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="fav icon logo" href="./images/favicon.ico">
+    <script src="https://kit.fontawesome.com/ab0d34f915.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/windchill.css">
+    <script src="./scripts//windchill-news.js" defer></script>
+    <script src="scripts/footerinfo.js" defer></script>
+    <script src="scripts/num-visits.js" defer></script>
+    <title>Fiji Chamber of Commerce</title>
+    <link rel="icon" type="image/x-icon" href="images/transparentlogo.png">
+</head>
+
+<body>
+    <header>
+       <div id="logo"> 
+            <img src="./images/transparentlogo.png" alt="Logo">
+            <div>
+                <p>Fiji Chamber of Commerce</p>
+            </div>
+            
+       </div>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./discover.html">Discover</a></li>
+            <li><a href="./directory.html">Directory</a></li>
+            <li><a href="./join.html">Join</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            
+        </ul>
+       <div id="socialmedia">
+            <i class="fa-brands fa-facebook" style="color: #337fc7;"></i>
+            <i class="fa-brands fa-twitter" style="color: #3477ea;"></i>
+       </div>
+
+       <div id="hamburgermenu">
+            <i class="fa-solid fa-bars" style="color: #d4a373;"></i>
+       </div>
+    </header>
+
+    <p>
+        Number of visits: <span id="number-of-visits"></span>
+    </p>
+    <main>
+        <body>
+            <main class="join">
+                
+                <section>
+                    <form method="GET" action="./thankyou.html">
+                    <label>First name<input name="fname" type="text" value="" placeholder="Your first name" size="30" maxlength="30" required></label>
+                    <label>Last name<input name="fname" type="text" value="" placeholder="Your last name" size="30" maxlength="30" required></label>
+                    <label>Title<input name="fname" type="text" value="" placeholder="Title" size="30" maxlength="30" required></label>
+                    <label>E-mail<input name="fname" type="text" value="" placeholder="E-mail" size="30" maxlength="30" required></label>
+                    <label>Cell Phone<input name="fname" type="text" value="" placeholder="Cell Phone Number" size="30" maxlength="30" required></label>
+                    <label>Business Name<input name="fname" type="text" value="" placeholder="Business Name" size="30" maxlength="30" required></label>
+                    <p>Membership Level</p>
+                    <hr>
+                    
+                    <label><input class="myradio" name="temp" type="radio" value="hot"> Non-Profit</label>
+                    <label><input class="myradio" name="temp" type="radio" value="warm"> Bronze</label>
+                    <label><input class="myradio" name="temp" type="radio" value="cold"> Silver</label>
+                    <label><input class="myradio" name="temp" type="radio" value="cold"> Gold</label>
+                    <p></p>
+                    <label>Business Description: <textarea name="description" cols="40" rows="5"></textarea></label>
+                    <input class="jointhechamber" type="submit" name="go" value="Join the Chamber!">
+                </form>
+                </section>
+                <section>
+        
+                    <div class="formstyling">
+                        <p>🗣 Membership Levels Benefits 🗣</p>
+                        <hr>
+                        <p>NP Membership</p>
+                        <ul>
+                            <div class="li-edits">
+                        <li>***For non profit organizations there is no fee.***</li>
+                            </div>
+                        </ul>
+                        <p>Bronze Membership</p>
+                            <div class="li-edits">
+                        <li>15% discount on events</li>
+                        <li>10% discount on advertising</li>
+                        <li>Fee of $50/month</li>
+                            </div>
+                    <p>Silver Membership</p>
+                            <div class="li-edits">
+                        <li>25% discount on events</li>
+                        <li>15% discount on advertising</li>
+                        <li>Free participation in the trade fair</li>
+                        <li>Fee of $100/month</li>
+                            </div>
+                    <p>Gold Membership</p>
+                            <div class="li-edits">
+                        <li>50% discount on events</li>
+                        <li>50% discount on advertising</li>
+                        <li>Free participation in the trade fair</li>
+                        <li>5 free featured ads per year</li>
+                        <li>1 free training per quarter</li>
+                        <li>Fee of $250/month</li>
+                            </div>
+                    </div>
+            
+                </section>
+            </main>
+            
+        </body>
+    </main>
+        <body>
+            <footer>
+                <div class="contactinfo">
+                    <img src="./images/transparentlogo.png" width="100" alt="">
+                    <p>2400 Toso Viti, Suva, Fiji 32 📍</p>
+                    <p>info@fjcc.org</p>
+                    <br>
+                </div>
+                <p>
+                <span id="currentyear"></span>
+                 &copy;| Sainimere Sema | Rexburg, ID
+                </p>
+                <p>
+                    Last Modified: 
+                    <span id="lastUpdated"></span>
+                </p>
+                <p>
+                    Kadavu, Fiji
+                    <img src="../images/fijiflag.webp" width="25" alt="Fiji flag">
+                </p>
+            
+            </footer>
+        </body>

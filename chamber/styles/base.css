@@ -169,6 +169,10 @@ footer {
 
 
 /* JOIN HTML CSS */
+.li-edits {
+    text-align: left;
+}
+
 .join{
     display: flex;
     gap: 20px;
@@ -184,6 +188,7 @@ section{
 label{
     display: block;
     font-size: .90rem;
+    text-align: left;
 }
 
 input{
@@ -252,6 +257,7 @@ input[type=radio]{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    text-align: left;
 }
 
 
