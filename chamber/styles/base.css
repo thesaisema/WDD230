@@ -533,3 +533,31 @@ img {
 	/* height: 75px; */
 	max-width: 100%; /* Images are jerks - Seattle*/
 }
+
+/* BANNER CSS */
+
+html, body {
+    margin: 0;
+}
+
+.banner {
+    background: rgb(140, 198, 246);
+}
+
+.banner-content {
+    padding: 16px;
+    max-width: 400px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.banner-text {
+    flex-grow: 1;
+    line-height: 1.4;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.banner-close {
+    border: none;
+    cursor: pointer;
+}
