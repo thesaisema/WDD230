@@ -177,12 +177,13 @@ footer {
     display: flex;
     gap: 20px;
     flex-direction: column;
-    }
+}
+
 section{
     margin: 1rem;
     padding: 1rem;
     border: 1px solid black;
-    min-width: 400px;
+    /* min-width: 400px; */
 }
 
 label{
@@ -404,6 +405,11 @@ h2:after{
     font-family: 'Dancing Script', cursive;
 }
 
+/* .discover-img {
+	height: 75px;
+	max-width: 100%;
+} */
+
 .discover{
     display: flex;
     gap: 20px;
@@ -454,13 +460,13 @@ main {
 	font-weight: 700;
 }
 
-section {
+section.directory-grid {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
 	background-color: #eee;
 }
 
-.directory-grid {
+/* .directory-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	grid-gap: 5px;
@@ -469,9 +475,9 @@ section {
 
 .directory-grid section {
 	text-align: center;
-}
+} */
 
-.directory-grid img {
+img.directory-grid {
 	border: 1px solid #fff;
 	box-shadow: 0 0 10px #333;
 }
@@ -531,7 +537,14 @@ section a {
 
 img {
 	/* height: 75px; */
-	max-width: 100%; /* Images are jerks - Seattle*/
+	max-width: 100%;
+}
+
+.article-grid {
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
 }
 
 /* BANNER CSS */
