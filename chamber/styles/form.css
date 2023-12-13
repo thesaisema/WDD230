@@ -1,0 +1,10 @@
+:root :required {
+    border-left: red solid 6px;
+}
+ 
+:root :required:valid {
+    border-left: green solid 6px;
+}
+:root :focus {
+    background-color:bisque
+}
